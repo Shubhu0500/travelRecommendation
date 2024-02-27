@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <head>
     <title>TRAVEL GO</title>
+    <script
+      src="https://kit.fontawesome.com/195c2f0acd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
 </head>
 <body>
-    <div class="header">
-        <a href="#home"><img src="https://th.bing.com/th/id/OIP.o_uil7KdC0_T09m4MgEl6QHaER?w=308&h=180&c=7&r=0&o=5&pid=1.7"></a>     
-    </div>
-    <div>
-        <a href = "./Home">Home</a>
-        <a href = "./About Us">About Us</a>
-        <a href = "./Contact Us">Contact Us</a>
-        <div class = "header-right">
-        <input type="text" placeholder="Search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-        <button id="btnsearch">Search</button>
-        <button id="reset">Reset</button>
-        </div>
-    </div>
-    <div>
-        <h1>EXPLORE DREAM DESTINATION</h1></br>
-        <p>It encourages exploration of unfamiliar territories, throughout the globe. You name it and we can take you there.</p>
-
-    </div>
+    <nav class="header">
+        <h1><i class="fa-solid fa-plane"></i>TravelBloom</h1>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./about">About Us</a></li>
+          <li><a href="./contact">Contact Us</a></li>
+        </ul>
+        <form id="search-form">
+          <input id="search-query" type="text" name="search-query" placeholder="Enter a destination or keyword" required/>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button type="submit">Search</button>
+          <button type="reset">Clear</button>
+        </form>
+      </nav>
 </body>
 </html>

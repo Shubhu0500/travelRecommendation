@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.I4X_ilJ5O8dMg1yrVXovmQHaEo?w=256&h=180&c=7&r=0&o=5&pid=1.7");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: cover;
+   }
+.header{
+    background-color: rgb(13, 177, 81);
+    padding: 20px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+nav h1{
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+    transition-duration: 0.4s;
+  }
+
+nav form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(13, 177, 81); 
+    border: none;
+    
+  }
+nav form ::placeholder{
+    color: rgb(13, 177, 81);
+}
+
+
+  nav form input,nav form button{
+    font-size: 13px;
+    border: none;
+  }
+
+nav form button{
+    background-color: rgb(13, 177, 81);
+    border-radius: 8px;
+    padding: 12px 28px;
+    text-align: center;
+    color: white;
+}
+
+nav form button:hover{
+    background-color: white;
+    transition-duration: 0.4s;
+    color: rgb(13, 177, 81);
+}
+
