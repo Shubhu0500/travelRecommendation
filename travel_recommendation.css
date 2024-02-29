@@ -4,14 +4,9 @@
     box-sizing: border-box;
     font-family: serif;
 }
-body {
-    background-image: url("https://th.bing.com/th/id/OIP.I4X_ilJ5O8dMg1yrVXovmQHaEo?w=256&h=180&c=7&r=0&o=5&pid=1.7");
-    background-repeat: no-repeat, repeat;
-    background-color: #cccccc;
-    background-size: cover;
-   }
+
 .header{
-    background-color: rgb(13, 177, 81);
+    background-color: rgb(168, 194, 179);
     padding: 20px;
 }
 
@@ -56,12 +51,12 @@ nav form {
     display: flex;
     align-items: center;
     gap: 20px;
-    color: rgb(13, 177, 81); 
+    color: rgb(168, 194, 179); 
     border: none;
     
   }
 nav form ::placeholder{
-    color: rgb(13, 177, 81);
+    color: rgb(168, 194, 179);
 }
 
 
@@ -71,7 +66,7 @@ nav form ::placeholder{
   }
 
 nav form button{
-    background-color: rgb(13, 177, 81);
+    background-color: rgb(168, 194, 179);
     border-radius: 8px;
     padding: 12px 28px;
     text-align: center;
@@ -81,6 +76,45 @@ nav form button{
 nav form button:hover{
     background-color: white;
     transition-duration: 0.4s;
-    color: rgb(13, 177, 81);
+    color: rgb(148, 179, 173);
 }
+
+body{
+    background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/city-wallpaper-44.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: cover;
+    
+}
+.vl {
+    border-left: 2px solid white;
+    height: 300px;
+    margin: 20px;
+    margin-top: 10%;
+  }
+
+
+.container .icons {
+    position: fixed;
+    left: 0;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    list-style: none;
+    margin: 15px;
+    
+  }
+.container i{
+    color: white;
+    font-size: 30px;
+    height: 40px;
+}
+.container i:hover{
+    color: rgb(168, 194, 179);
+    transition-duration: 0.3s;
+}
+
+
 
