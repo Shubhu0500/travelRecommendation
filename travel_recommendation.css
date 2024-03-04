@@ -8,10 +8,6 @@
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
   }
-.header{
-    background-color: rgb(168, 194, 179);
-    padding: 20px;
-}
 
 nav{
     position: fixed;
@@ -69,7 +65,7 @@ nav form ::placeholder{
   }
 
 nav form button{
-    background-color: rgb(168, 194, 179);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
     padding: 12px 28px;
     text-align: center;
@@ -79,7 +75,7 @@ nav form button{
 nav form button:hover{
     background-color: white;
     transition-duration: 0.4s;
-    color: rgb(148, 179, 173);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 body{
@@ -116,15 +112,17 @@ body{
     height: 40px;
 }
 .container i:hover{
-    color: rgb(168, 194, 179);
+    color: rgb(28, 139, 173);
     transition-duration: 0.3s;
 }
 .container .content,
 .container .about-us,
 .container .contact,
 .container .home {
+    position:fixed;
   width: 80%;
   margin: auto;
+  margin-left: 50px;
   height: 100vh;
   overflow: hidden;
   flex-direction: column;
@@ -142,7 +140,8 @@ body{
 .container button{
     margin-top: 30px;
     margin-left: 15px;
-    background-color: rgb(168, 194, 179);
+    color: white;
+    background-color: rgba(73, 111, 146, 0.596);
     text-decoration: none;
     border: none;
     font-family: fantasy;
@@ -151,7 +150,7 @@ body{
 }
 .container button:hover{
     transition-duration: 0.4s;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -169,3 +168,16 @@ body{
     gap: 50px;
   }
 
+  #contact-form {
+    float: right;
+    max-width: 3000px;
+    margin: auto;
+  }
+  #contact-form input,
+    #contact-form textarea {
+    background-color:rgba(0, 0, 0, 0.5) ;
+      width: 100%;
+      
+      margin-bottom: 15px;
+      padding: 8px;
+    }

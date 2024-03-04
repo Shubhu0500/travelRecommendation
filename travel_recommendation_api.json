@@ -6,12 +6,12 @@
             "cities": [
                 {
                     "name": "Sydney, Australia",
-                    "imageUrl": "enter_your_image_for_sydney.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.RMMOv_7p4HUTC-uW0HnkDAHaEK?rs=1&pid=ImgDetMain",
                     "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
                 },
                 {
                     "name": "Melbourne, Australia",
-                    "imageUrl": "enter_your_image_for_melbourne.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.5ohtgUp8opQUTBWszH9yjgHaEK?w=280&h=180&c=7&r=0&o=5&pid=1.7",
                     "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
                 }
             ]
@@ -22,12 +22,12 @@
             "cities": [
                 {
                     "name": "Tokyo, Japan",
-                    "imageUrl": "enter_your_image_for_tokyo.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.oz99252P3hNJ6dRz5rstGwHaEK?w=304&h=180&c=7&r=0&o=5&pid=1.7",
                     "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
                 },
                 {
                     "name": "Kyoto, Japan",
-                    "imageUrl": "enter_your_image_for_kyoto.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.9hfsyX5jZ0VASX0yZF4D-QHaE6?w=251&h=180&c=7&r=0&o=5&pid=1.7",
                     "description": "Known for its historic temples, gardens, and traditional tea houses."
                 }
             ]
@@ -38,12 +38,12 @@
             "cities": [
                 {
                     "name": "Rio de Janeiro, Brazil",
-                    "imageUrl": "enter_your_image_for_rio.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.HccbSti07aFdaUEDg8zFvQHaEo?w=294&h=183&c=7&r=0&o=5&pid=1.7",
                     "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
                 },
                 {
                     "name": "São Paulo, Brazil",
-                    "imageUrl": "enter_your_image_for_sao-paulo.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.zjg4mWwaSQaiEAP-ujoiCwHaEK?w=239&h=180&c=7&r=0&o=5&pid=1.7",
                     "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
                 }
             ]
@@ -53,13 +53,13 @@
         {
             "id": 1,
             "name": "Angkor Wat, Cambodia",
-            "imageUrl": "enter_your_image_for_angkor-wat.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.kNA2L0PbdH3z-ktkRgr-IQHaE8?w=309&h=180&c=7&r=0&o=5&pid=1.7",
             "description": "A UNESCO World Heritage site and the largest religious monument in the world."
         },
         {
             "id": 2,
             "name": "Taj Mahal, India",
-            "imageUrl": "enter_your_image_for_taj-mahal.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.xKoSllovapbTJmyvIaE5jwExDM?w=249&h=180&c=7&r=0&o=5&pid=1.7",
             "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
         }
     ],
@@ -67,13 +67,13 @@
         {
             "id": 1,
             "name": "Bora Bora, French Polynesia",
-            "imageUrl": "enter_your_image_for_bora-bora.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.OUaaEVIuV0KHO80hhuRIiwHaEK?w=260&h=180&c=7&r=0&o=5&pid=1.7",
             "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
         },
         {
             "id": 2,
             "name": "Copacabana Beach, Brazil",
-            "imageUrl": "enter_your_image_for_copacabana.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.T05x8c1_3HXMLOp5kx2cNgHaDt?w=331&h=175&c=7&r=0&o=5&pid=1.7",
             "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
         }
     ]
