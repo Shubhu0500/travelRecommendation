@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: serif;
 }
-
+.black-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+  }
 .header{
     background-color: rgb(168, 194, 179);
     padding: 20px;
@@ -87,10 +90,11 @@ body{
     
 }
 .vl {
-    border-left: 2px solid white;
+    border-left: 1px solid white;
     height: 200px;
-    margin: 20px;
+    margin-left: 20px;
     margin-top: 10%;
+    
   }
 
 
@@ -115,22 +119,53 @@ body{
     color: rgb(168, 194, 179);
     transition-duration: 0.3s;
 }
-.container .content{
-
-    width: 80%;
-    margin: auto;
-    height: 100vh;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    gap: 50px;
-    color: white;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+.container .content,
+.container .about-us,
+.container .contact,
+.container .home {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container .content h1{
     font-size: 100px;
     font-family: fantasy;
+    margin-bottom: 30px;
+    
+}
+.container button{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: rgb(168, 194, 179);
+    text-decoration: none;
+    border: none;
+    font-family: fantasy;
+    padding: 12px 28px;
+    font-size: 16px;
+}
+.container button:hover{
+    transition-duration: 0.4s;
+    background-color: white;
 }
 
+
+.container .about-us h1,
+.container .contact h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.container .team {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top:70px;
+    gap: 50px;
+  }
 
