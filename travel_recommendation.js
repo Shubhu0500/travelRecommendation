@@ -29,27 +29,16 @@ function getRecommendations() {
           break;
         default:
           let filteredData = [];
-          Object.keys(data).forEach((category) => {
-            data[category].forEach((item) => {
-              if (
-                category === "countries" &&
-                item.name.toLowerCase().includes(filteredQuery)
-              ) {
+          Object.keys(data).forEach((category) => {data[category].forEach((item) => 
+            {
+              if (category === "countries" && item.name.toLowerCase().includes(filteredQuery)) {
                 filteredData = [...filteredData, ...item.cities];
-                const options = {
-                  timeZone: "America/New_York",
-                  hour12: true,
-                  hour: "numeric",
-                  minute: "numeric",
-                  second: "numeric",
-                };
+                const options = {timeZone: "Australia/Sydney", hour12: true, hour: "numeric", minute: "numeric", second: "numeric"};
                 timezone.classList.remove("hidden");
-                const cityTimezone = new Date().toLocaleTimeString(
-                  "en-US",
-                  options
-                );
+                const cityTimezone = new Date().toLocaleTimeString("en-US",options);
                 timezone.innerText = cityTimezone;
-              } else if (item.name.toLowerCase().includes(filteredQuery)) {
+              }
+              else if (item.name.toLowerCase().includes(filteredQuery)) {
                 filteredData.push(item);
               }
             });
